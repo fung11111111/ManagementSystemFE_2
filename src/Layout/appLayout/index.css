@@ -1,0 +1,15 @@
+.layout .ant-layout-header {
+  background: #344955;
+  color: #232f34;
+}
+
+.layout .ant-layout-header .ant-btn:hover,
+.ant-layout-header .ant-btn:focus {
+  color: #f9aa33;
+  border-color: #f9aa33;
+}
+
+.site-layout-content {
+  min-height: 500px;
+  padding: 24px;
+}

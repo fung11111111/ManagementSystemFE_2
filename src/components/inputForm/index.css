@@ -1,0 +1,17 @@
+.form-container .ant-form-item-label > label {
+  font-size: 16px;
+  color: #344955;
+}
+
+.form-container .ant-input:hover,
+.form-container .ant-picker-range:hover,
+.form-container .ant-input:focus,
+.form-container .ant-picker-focused {
+  border-color: #344955;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 123, 142, 0.2);
+  box-shadow: 0 0 0 2px rgba(87, 123, 142, 0.2);
+}
+
+.form-container .ant-picker-range .ant-picker-active-bar {
+  background: #61889e;
+}

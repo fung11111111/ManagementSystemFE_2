@@ -1,0 +1,75 @@
+.main-container .ant-btn {
+  margin: 8px;
+}
+
+.main-container .newButton,
+.newButton:focus,
+.newButton:hover {
+  float: left;
+  color: whitesmoke;
+  background-color: #1d2830;
+  border-color: #1d2830;
+  /* border-radius: 2px; */
+}
+
+.filter-selector {
+  float: left;
+  margin: 8px 8px 8px 20px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #1d2830;
+  color: #1d2830;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector:focus,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector:hover {
+  border-color: #344955;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 123, 142, 0.2);
+  box-shadow: 0 0 0 2px rgba(87, 123, 142, 0.2);
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: #344955;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 123, 142, 0.2);
+  box-shadow: 0 0 0 2px rgba(87, 123, 142, 0.2);
+}
+
+.main-container .newButton:hover {
+  background-color: #344955;
+}
+
+.main-container .editButton {
+  border-color: #009933;
+  background-color: #009933;
+  color: whitesmoke;
+}
+
+.main-container .editButton:hover {
+  border-color: #00b33c;
+  background-color: #00b33c;
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+.main-container .deleteButton {
+  border-color: #993300;
+  background-color: #993300;
+  color: whitesmoke;
+}
+
+.main-container .deleteButton:hover {
+  border-color: #b33c00;
+  background-color: #b33c00;
+  color: whitesmoke;
+  opacity: 0.7;
+}
+
+.main-container .m1Alert {
+  color: red;
+}
+
+.main-container .m3Alert {
+  color: #ff751a;
+}
